@@ -10,10 +10,14 @@
 		21177DE7216E11F1003E3D9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21177DE6216E11F1003E3D9F /* AppDelegate.swift */; };
 		21177DE9216E11F1003E3D9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21177DE8216E11F1003E3D9F /* ViewController.swift */; };
 		21177DEC216E11F1003E3D9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21177DEA216E11F1003E3D9F /* Main.storyboard */; };
-		21177DEE216E11F2003E3D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21177DED216E11F2003E3D9F /* Assets.xcassets */; };
+		21177DEE216E11F2003E3D9F /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21177DED216E11F2003E3D9F /* image.xcassets */; };
 		21177DF1216E11F2003E3D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21177DEF216E11F2003E3D9F /* LaunchScreen.storyboard */; };
 		21177DFC216E11F2003E3D9F /* Sample_Procon_2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21177DFB216E11F2003E3D9F /* Sample_Procon_2018Tests.swift */; };
 		21177E07216E11F3003E3D9F /* Sample_Procon_2018UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21177E06216E11F3003E3D9F /* Sample_Procon_2018UITests.swift */; };
+		21349AB2216F70AC002FDD8F /* ViewWebSite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21349AB1216F70AC002FDD8F /* ViewWebSite.storyboard */; };
+		21349AB421702123002FDD8F /* ShowQRCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21349AB321702123002FDD8F /* ShowQRCode.storyboard */; };
+		21349AB621702143002FDD8F /* ShowQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21349AB521702143002FDD8F /* ShowQRCode.swift */; };
+		21349AB821702956002FDD8F /* ViewWebSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21349AB721702956002FDD8F /* ViewWebSite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,7 @@
 		21177DE6216E11F1003E3D9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21177DE8216E11F1003E3D9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21177DEB216E11F1003E3D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		21177DED216E11F2003E3D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21177DED216E11F2003E3D9F /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
 		21177DF0216E11F2003E3D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21177DF2216E11F2003E3D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21177DF7216E11F2003E3D9F /* Sample_Procon_2018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample_Procon_2018Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +51,11 @@
 		21177E02216E11F3003E3D9F /* Sample_Procon_2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample_Procon_2018UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21177E06216E11F3003E3D9F /* Sample_Procon_2018UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Procon_2018UITests.swift; sourceTree = "<group>"; };
 		21177E08216E11F3003E3D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21349AB1216F70AC002FDD8F /* ViewWebSite.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewWebSite.storyboard; sourceTree = "<group>"; };
+		21349AB321702123002FDD8F /* ShowQRCode.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShowQRCode.storyboard; sourceTree = "<group>"; };
+		21349AB521702143002FDD8F /* ShowQRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowQRCode.swift; sourceTree = "<group>"; };
+		21349AB721702956002FDD8F /* ViewWebSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWebSite.swift; sourceTree = "<group>"; };
+		21F392F7217416CD0095A6ED /* Sample_Procon_2018.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sample_Procon_2018.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +106,17 @@
 		21177DE5216E11F1003E3D9F /* Sample_Procon_2018 */ = {
 			isa = PBXGroup;
 			children = (
+				21F392F7217416CD0095A6ED /* Sample_Procon_2018.entitlements */,
 				21177DE6216E11F1003E3D9F /* AppDelegate.swift */,
 				21177DE8216E11F1003E3D9F /* ViewController.swift */,
 				21177DEA216E11F1003E3D9F /* Main.storyboard */,
-				21177DED216E11F2003E3D9F /* Assets.xcassets */,
+				21177DED216E11F2003E3D9F /* image.xcassets */,
 				21177DEF216E11F2003E3D9F /* LaunchScreen.storyboard */,
 				21177DF2216E11F2003E3D9F /* Info.plist */,
+				21349AB1216F70AC002FDD8F /* ViewWebSite.storyboard */,
+				21349AB721702956002FDD8F /* ViewWebSite.swift */,
+				21349AB321702123002FDD8F /* ShowQRCode.storyboard */,
+				21349AB521702143002FDD8F /* ShowQRCode.swift */,
 			);
 			path = Sample_Procon_2018;
 			sourceTree = "<group>";
@@ -193,6 +207,17 @@
 				TargetAttributes = {
 					21177DE2216E11F1003E3D9F = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
 					};
 					21177DF6216E11F2003E3D9F = {
 						CreatedOnToolsVersion = 10.0;
@@ -230,8 +255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				21177DF1216E11F2003E3D9F /* LaunchScreen.storyboard in Resources */,
-				21177DEE216E11F2003E3D9F /* Assets.xcassets in Resources */,
+				21177DEE216E11F2003E3D9F /* image.xcassets in Resources */,
 				21177DEC216E11F1003E3D9F /* Main.storyboard in Resources */,
+				21349AB421702123002FDD8F /* ShowQRCode.storyboard in Resources */,
+				21349AB2216F70AC002FDD8F /* ViewWebSite.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +285,8 @@
 			files = (
 				21177DE9216E11F1003E3D9F /* ViewController.swift in Sources */,
 				21177DE7216E11F1003E3D9F /* AppDelegate.swift in Sources */,
+				21349AB821702956002FDD8F /* ViewWebSite.swift in Sources */,
+				21349AB621702143002FDD8F /* ShowQRCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SUD9T27AD9;
 				INFOPLIST_FILE = Sample_Procon_2018/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +483,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SUD9T27AD9;
 				INFOPLIST_FILE = Sample_Procon_2018/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

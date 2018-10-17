@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Uue-SN-jzr">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Web Site-->
+        <scene sceneID="Qt2-B7-k7Y">
+            <objects>
+                <viewController id="Uue-SN-jzr" customClass="ViewWebSite" customModule="Sample_Procon_2018" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eau-X1-YJc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I8A-Cg-0uS">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="&lt; Back" id="Ofc-gG-BaS">
+                                        <connections>
+                                            <action selector="actBack:" destination="Uue-SN-jzr" id="Ilo-eK-4yb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Ub3-7A-7n0"/>
+                                    <barButtonItem systemItem="refresh" id="Frl-5D-Hdd">
+                                        <connections>
+                                            <action selector="actRefresh:" destination="Uue-SN-jzr" id="8IW-uK-wrf"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="WFu-OG-IjG"/>
+                                    <barButtonItem title="Forward &gt;" id="Izq-45-tOz">
+                                        <connections>
+                                            <action selector="actForward:" destination="Uue-SN-jzr" id="yPH-NN-sHS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="UBv-9m-zIK"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnBack" destination="Ofc-gG-BaS" id="aSR-vl-Q6a"/>
+                        <outlet property="btnForward" destination="Izq-45-tOz" id="IbL-Ug-oQo"/>
+                        <outlet property="btnRefresh" destination="Frl-5D-Hdd" id="pYt-x4-A43"/>
+                        <outlet property="toolBar" destination="I8A-Cg-0uS" id="asM-lm-OnQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4t7-Iw-MHK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-247" y="163"/>
+        </scene>
+    </scenes>
+</document>
